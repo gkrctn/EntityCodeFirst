@@ -11,7 +11,8 @@ namespace EntityCodeFirst.Entity
     {
         [Key]
         public int KategoriID { get; set; }
-        public string KategoriAD { get; set; }
+        public string KategoriAd { get; set; }
+      
         public ICollection<Urunler> Urunlers { get; set; } //kategorilerin içerisinde birden fazla ürün yer alabilir
 
 
